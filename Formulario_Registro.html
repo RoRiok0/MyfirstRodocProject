@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA COMUNIDAD</title>
+</head>
+    <body>
+        <strong><h1>¡ UNETE A NOSOSTROS !</h1></strong>
+        <Form action="/Register" method="post">
+
+            <div>
+                
+            <label for="Nombre"><i></i> Nombre:</i></label><br>
+            <input type="text" id="Nombre" Name="Nombre" /> <br>
+            <br>
+            <label for="Apellido"><i> Apellido:</i></label><br>
+            <input type="text" id="Apellido" Name="Apellido" /> <br>
+            <br>
+            <label for="CorreoElectronico"><i>Correo electronico:</i></label><br>
+            <input type="text" id="CorreoElectronico" name="CorreoElectronico" /> <br>
+            <br>
+            <label for="Contraseña"><i> Contraseña:</i></label><br>
+            <input type="text" id="Contraseña" name="Contraseña" /> <br>
+            <br>
+            <label for="Confirmar_Contraseña"><i> Confirmar su Contraseña:</i></label><br>
+            <input type="text" id="Confirmar_Contraseña" name="Confirmar_Contraseña" /> <br>
+            <br>
+
+            </div>
+
+ 
+            <div>
+                <label for="fecha_nacimiento"><i>Fecha de nacimiento:</i></label> <br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" /> <br>
+            </div>
+
+            <div>
+
+                <br>
+                <label for="genero"><i> Su genero:</i></label> <br>
+                <input type="radio" id="hombre" name="Masculino" value="Homre">
+                <label for="Homre"> <strong> Masculino</strong></label> <br>
+                <input type="radio" id="Mujer" name="Femenino" value="Mujer">
+                <label for="Mujer"> <strong>Femenino</strong></label> <br>
+                <input type="radio" id="None" name="Ninguno" value="None"> 
+                <label for="None"> <strong>Prefiero no decirlo</strong></label> <br>
+
+                <br>
+                <br>
+                <br>
+    
+            </div>
+
+            <div>
+                <input type="checkbox" id="Boletin_Noticias" name="Boletin"> <i>Unete a nuestro boletin de noticias</i>
+
+             <br>
+             <br>
+             <br>
+
+            </div>
+
+            <div>
+                
+                <label for="Descripcion"><i> Escribe una breve descripcion de ti mismo: </i></label>
+             <br>
+             <textarea id="Descripcion" name="DescripcionPersonal" rows="6" cols="75"></textarea> <br>
+             <br>
+             <br>
+            
+            </div>
+
+            <label for="Intereses"><i> Cuales son sus intereses: </i></label> <br>
+            <select id="Intereses" name="SusIntereses"> 
+
+                
+                <option value="Musica">Musica</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Viajes">Viajes</option>
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Artes">Artes</option> <br>
+
+
+            </select>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <button type="Enviar" value="FormularioCompleto"> ¡Registrarse! </button>
+
+
+
+
+        </Form>
+    </body>
+</html>
